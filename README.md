@@ -34,7 +34,7 @@ __Application Layout:__
 
 
 Dumping Utilities:
-<br><a href="https://ibb.co/4Rym3VT"><img src="https://i.ibb.co/GQwxN52/dump.jpg" alt="dump" border="0" /></a><br>
+<br><a href="https://ibb.co/GTLDQ6M"><img src="https://i.ibb.co/nCvyMG1/dump.jpg" alt="dump" border="0" /></a><br>
 
 The top portion of the application window is utilized for EFI Chip reading / dumping processes. The first text field entitled "Flashrom Location" is for the location of your flashrom app. If you installed the most recent version with brew (which at the time this was written was v1.1) then you can just leave this field untouched. If left untouched, it will default to the brew install location. If you installed your flashrom to a different location, then you can enter the alternative path.
 
