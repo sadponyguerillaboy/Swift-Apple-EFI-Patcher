@@ -29,10 +29,10 @@ __Usage:__
 
 After prerequisites have been setup and installed, you can either download a binary from the binary folder or build from source. Once you have downloaded or built EFI Patcher.App, just double click to run it. If on Catalina you may need to provide the utility with the necessary security clearances.
 
-![Image of Dumping Utilities](<a href="https://ibb.co/Tbh1zC6"><img src="https://i.ibb.co/HxgCmJ6/patch.jpg" alt="patch" border="0" /></a>)
+<a href="https://ibb.co/Tbh1zC6"><img src="https://i.ibb.co/HxgCmJ6/patch.jpg" alt="patch" border="0" /></a>
 
 https://ibb.co/tMCDQcV
 https://ibb.co/HCp7kPN
 https://ibb.co/4Rym3VT
 https://ibb.co/GMfSkqZ
-https://ibb.co/Tbh1zC6
+
