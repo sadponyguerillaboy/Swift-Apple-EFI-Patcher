@@ -40,7 +40,7 @@ The top portion of the application window is utilized for EFI Chip reading / dum
 
 The next text field below entitled "Dump Location" is where the application will save the dumped EFI file. By default it will save to your desktop as "firmware_dump.bin".
 
-The radio button entitled "Verify Dump" activates the verification process during EFI Dumping and is recommended to verify integtity of your dumps. Activating the verification process will extend the time of the dumping procedure.
+The radio button entitled "Verify Dump" activates the verification process during EFI dumping and is recommended to verify the integtity of your dumped files. Note that activating the verification process will extend the time of the dumping procedure.
 
 The dropdown menu entitled "Programmer Type" allows you to select your programmer.
 
@@ -81,3 +81,4 @@ The three buttons at the bottom of the application window should be fairly self 
 Editing JSON Menu Lists:
 <br><a href="https://imgbb.com/"><img src="https://i.ibb.co/xgKTGNn/json.jpg" alt="json" border="0" /></a>
 
+This application was designed to with the intention of utilizing cost effective USB based chip readers such as CH341a or FT2232H based boards. When designing this application, it was realized that there's just no way to account for the multitude of hardware and chip types that might be used now and in the future. To accomodate the need for customizations, the list of programmers and chip types are stored in JSON files inside the application. To edit these files, simply right click on the application, select "show package contents" and navigate to the JSON files in the resources folder. Just edit the files and append your additions following the JSON format. Your additions will then become available in the programmer and chip type selection menus upon next restart.
