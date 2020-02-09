@@ -1,0 +1,68 @@
+{
+  "images" : [
+    {
+      "size" : "16x16",
+      "idiom" : "mac",
+      "filename" : "Circuit_Chip_IC_Microprocessor_IntegratedCircuit_Microchip_Semiconductor-512-16.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "16x16",
+      "idiom" : "mac",
+      "filename" : "Circuit_Chip_IC_Microprocessor_IntegratedCircuit_Microchip_Semiconductor-512-32.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "32x32",
+      "idiom" : "mac",
+      "filename" : "Circuit_Chip_IC_Microprocessor_IntegratedCircuit_Microchip_Semiconductor-512-32.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "32x32",
+      "idiom" : "mac",
+      "filename" : "Circuit_Chip_IC_Microprocessor_IntegratedCircuit_Microchip_Semiconductor-512-64.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "128x128",
+      "idiom" : "mac",
+      "filename" : "Circuit_Chip_IC_Microprocessor_IntegratedCircuit_Microchip_Semiconductor-512-128.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "128x128",
+      "idiom" : "mac",
+      "filename" : "Circuit_Chip_IC_Microprocessor_IntegratedCircuit_Microchip_Semiconductor-512-256.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "256x256",
+      "idiom" : "mac",
+      "filename" : "Circuit_Chip_IC_Microprocessor_IntegratedCircuit_Microchip_Semiconductor-512-256.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "256x256",
+      "idiom" : "mac",
+      "filename" : "Circuit_Chip_IC_Microprocessor_IntegratedCircuit_Microchip_Semiconductor-512-512.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "512x512",
+      "idiom" : "mac",
+      "filename" : "Circuit_Chip_IC_Microprocessor_IntegratedCircuit_Microchip_Semiconductor-512-512.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "512x512",
+      "idiom" : "mac",
+      "filename" : "Circuit_Chip_IC_Microprocessor_IntegratedCircuit_Microchip_Semiconductor-512-1024.png",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

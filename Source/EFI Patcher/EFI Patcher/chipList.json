@@ -1,0 +1,80 @@
+[
+    {
+        "vendor": "Macronix",
+        "device": "MX25L6405",
+        "size": "8192",
+        "type": "SPI",
+    },
+    {
+        "vendor": "Macronix",
+        "device": "MX25L6405D",
+        "size": "8192",
+        "type": "SPI",
+    },
+    {
+        "vendor": "Macronix",
+        "device": "MX25L6406E/MX25L6408E",
+        "size": "8192",
+        "type": "SPI",
+    },
+    {
+        "vendor": "Macronix",
+        "device": "MX25L6436E/MX25L6445E/MX25L6465E/MX25L6473E/MX25L6473F",
+        "size": "8192",
+        "type": "SPI",
+    },
+    {
+        "vendor": "Micron/Numonyx/ST",
+        "device": "M25PX64",
+        "size": "8192",
+        "type": "SPI",
+    },
+    {
+        "vendor": "Micron/Numonyx/ST",
+        "device": "N25Q064..1E",
+        "size": "8192",
+        "type": "SPI",
+    },
+    {
+        "vendor": "Micron/Numonyx/ST",
+        "device": "N25Q064..3E",
+        "size": "8192",
+        "type": "SPI",
+    },
+    {
+        "vendor": "Spansion",
+        "device": "S25FL164K",
+        "size": "8192",
+        "type": "SPI",
+    },
+    {
+        "vendor": "SST",
+        "device": "SST25VF064C",
+        "size": "8192",
+        "type": "SPI",
+    },
+    {
+        "vendor": "SST",
+        "device": "SST26VF064B(A)",
+        "size": "8192",
+        "type": "SPI",
+    },
+    {
+        "vendor": "Winbond",
+        "device": "W25Q64.V",
+        "size": "8192",
+        "type": "SPI",
+    },
+    {
+        "vendor": "Winbond",
+        "device": "W25Q64.W",
+        "size": "8192",
+        "type": "SPI",
+    },
+    {
+        "vendor": "Winbond",
+        "device": "W25X64",
+        "size": "8192",
+        "type": "SPI",
+    }
+]
