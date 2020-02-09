@@ -33,8 +33,7 @@ After prerequisites have been setup and installed, you can either download a bin
 __Application Layout:__
 
 
-__Dumping Utilities:__
-
+Dumping Utilities:
 <br><a href="https://ibb.co/4Rym3VT"><img src="https://i.ibb.co/GQwxN52/dump.jpg" alt="dump" border="0" /></a><br>
 
 The top portion of the application window is utilized for EFI Chip reading / dumping processes. The first text field entitled "Flashrom Location" is for the location of your flashrom app. If you installed the most recent version with brew (which at the time this was written was v1.1) then you can just leave this field untouched. If left untouched, it will default to the brew install location. If you installed your flashrom to a different location, then you can enter the alternative path.
@@ -47,17 +46,37 @@ The dropdown menu entitled "Programmer Type" allows you to select your programme
 
 The dropdown menu entitled "Chip Type" allows you to select your EFI chip.
 
-The "Dump" but initiates the dumping process.
+The "Dump" button initiates the dumping process.
 
 
 Patching Utilities:
 <br><a href="https://ibb.co/Tbh1zC6"><img src="https://i.ibb.co/HxgCmJ6/patch.jpg" alt="patch" border="0" /></a>
 
+The patching portion of the application window is where you can edit your EFI dump. If you dumped your EFI using the dump utility above, then the "Original EFI File" text field will auto-populate with the location of the dumped file. If you already have a dumped EFI file you wish to modify, then you can either type the path into the "Original EFI File" field, or yo can click the "Open" button and choose the file, which will in turn auto-populate the "Original EFI File" filed.
+
+The four radio buttons activate each of the patching processes and should be pretty self explanatory.
+
+To patch the serial number, click the "Change Serial Number" radio button and enter a new 12 character serial number of your choosing.
+
+To clean the ME Region, click the "Clean ME Region" radio button, and either manually enter the path to the ME Region file or click the open button and select the file, which will in turn auto-populate the ME Region File path field.
+
+To Remove firmware locks, click the "Remove Firmware Lock" radio button. This will fill the $SVS region with 0xFF.
+
+To Clear NVRAM, click the "Clear NVRAM' radio button.
+
+Once patching selections have been made. Click the "Patch' button below.
+
+
 Console Output Window:
 <br><a href="https://ibb.co/HCp7kPN"><img src="https://i.ibb.co/3vY1LFf/console.jpg" alt="console" border="0" /></a>
 
+The console output portion of the application is where you will receive feedback on the various process taking place. 
+
+
 Bottom Buttons:
 <br><a href="https://ibb.co/tMCDQcV"><img src="https://i.ibb.co/Y7jhP8H/bottombuttons.jpg" alt="bottombuttons" border="0" /></a>
+
+The three buttons at the bottom of the application window should be fairly self explanatory. "Reset" resets all user input selections and returns everything back to its original default settings. "Patch" initiates the patching process once you have made your selections above. The patching process will create a file in the same location as the dump file and add "patched.bin" to the end of the file. The "Write" button will write the patched EFI back onto the chip. The write function searches for a file name that equals (dumped file name + patched.bin). If you've used the patching utility, then you will already have a file that it will be able to automatically locate.
 
 Editing JSON Menu Lists:
 <br><a href="https://imgbb.com/"><img src="https://i.ibb.co/xgKTGNn/json.jpg" alt="json" border="0" /></a>
