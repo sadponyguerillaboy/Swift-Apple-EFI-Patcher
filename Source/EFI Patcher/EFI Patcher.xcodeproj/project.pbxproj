@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9437A4B423EF9255002BE79C /* chipList.json in Resources */ = {isa = PBXBuildFile; fileRef = 9437A4B323EF9254002BE79C /* chipList.json */; };
+		9437A4B823EFD6A3002BE79C /* progList.json in Resources */ = {isa = PBXBuildFile; fileRef = 9437A4B723EFD6A2002BE79C /* progList.json */; };
+		BB53669523E0F3CE006404CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB53669423E0F3CE006404CF /* AppDelegate.swift */; };
+		BB53669723E0F3CE006404CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB53669623E0F3CE006404CF /* ViewController.swift */; };
+		BB53669923E0F3D2006404CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB53669823E0F3D2006404CF /* Assets.xcassets */; };
+		BB53669C23E0F3D2006404CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB53669A23E0F3D2006404CF /* Main.storyboard */; };
+		BB5366A823E0F3D3006404CF /* EFI_PatcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5366A723E0F3D3006404CF /* EFI_PatcherTests.swift */; };
+		BB5366B323E0F3D3006404CF /* EFI_PatcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5366B223E0F3D3006404CF /* EFI_PatcherUITests.swift */; };
+		BB807E0323E1CF9300069450 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB807E0223E1CF9300069450 /* Functions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB5366A423E0F3D3006404CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB53668923E0F3CE006404CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB53669023E0F3CE006404CF;
+			remoteInfo = "EFI Patcher";
+		};
+		BB5366AF23E0F3D3006404CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB53668923E0F3CE006404CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB53669023E0F3CE006404CF;
+			remoteInfo = "EFI Patcher";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9437A4B323EF9254002BE79C /* chipList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = chipList.json; path = ../../../../Desktop/chipList.json; sourceTree = "<group>"; };
+		9437A4B723EFD6A2002BE79C /* progList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = progList.json; path = ../../../../Desktop/progList.json; sourceTree = "<group>"; };
+		BB53669123E0F3CE006404CF /* EFI Patcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EFI Patcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB53669423E0F3CE006404CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB53669623E0F3CE006404CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB53669823E0F3D2006404CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB53669B23E0F3D2006404CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB53669D23E0F3D2006404CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB53669E23E0F3D2006404CF /* EFI_Patcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EFI_Patcher.entitlements; sourceTree = "<group>"; };
+		BB5366A323E0F3D3006404CF /* EFI PatcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EFI PatcherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5366A723E0F3D3006404CF /* EFI_PatcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFI_PatcherTests.swift; sourceTree = "<group>"; };
+		BB5366A923E0F3D3006404CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB5366AE23E0F3D3006404CF /* EFI PatcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EFI PatcherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5366B223E0F3D3006404CF /* EFI_PatcherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFI_PatcherUITests.swift; sourceTree = "<group>"; };
+		BB5366B423E0F3D3006404CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB807E0223E1CF9300069450 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB53668E23E0F3CE006404CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5366A023E0F3D3006404CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5366AB23E0F3D3006404CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB53668823E0F3CE006404CF = {
+			isa = PBXGroup;
+			children = (
+				BB53669323E0F3CE006404CF /* EFI Patcher */,
+				BB5366A623E0F3D3006404CF /* EFI PatcherTests */,
+				BB5366B123E0F3D3006404CF /* EFI PatcherUITests */,
+				BB53669223E0F3CE006404CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB53669223E0F3CE006404CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB53669123E0F3CE006404CF /* EFI Patcher.app */,
+				BB5366A323E0F3D3006404CF /* EFI PatcherTests.xctest */,
+				BB5366AE23E0F3D3006404CF /* EFI PatcherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB53669323E0F3CE006404CF /* EFI Patcher */ = {
+			isa = PBXGroup;
+			children = (
+				BB53669423E0F3CE006404CF /* AppDelegate.swift */,
+				BB807E0223E1CF9300069450 /* Functions.swift */,
+				BB53669623E0F3CE006404CF /* ViewController.swift */,
+				BB53669823E0F3D2006404CF /* Assets.xcassets */,
+				BB53669A23E0F3D2006404CF /* Main.storyboard */,
+				BB53669D23E0F3D2006404CF /* Info.plist */,
+				BB53669E23E0F3D2006404CF /* EFI_Patcher.entitlements */,
+				9437A4B323EF9254002BE79C /* chipList.json */,
+				9437A4B723EFD6A2002BE79C /* progList.json */,
+			);
+			path = "EFI Patcher";
+			sourceTree = "<group>";
+		};
+		BB5366A623E0F3D3006404CF /* EFI PatcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB5366A723E0F3D3006404CF /* EFI_PatcherTests.swift */,
+				BB5366A923E0F3D3006404CF /* Info.plist */,
+			);
+			path = "EFI PatcherTests";
+			sourceTree = "<group>";
+		};
+		BB5366B123E0F3D3006404CF /* EFI PatcherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB5366B223E0F3D3006404CF /* EFI_PatcherUITests.swift */,
+				BB5366B423E0F3D3006404CF /* Info.plist */,
+			);
+			path = "EFI PatcherUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB53669023E0F3CE006404CF /* EFI Patcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB5366B723E0F3D3006404CF /* Build configuration list for PBXNativeTarget "EFI Patcher" */;
+			buildPhases = (
+				BB53668D23E0F3CE006404CF /* Sources */,
+				BB53668E23E0F3CE006404CF /* Frameworks */,
+				BB53668F23E0F3CE006404CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EFI Patcher";
+			productName = "EFI Patcher";
+			productReference = BB53669123E0F3CE006404CF /* EFI Patcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB5366A223E0F3D3006404CF /* EFI PatcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB5366BA23E0F3D3006404CF /* Build configuration list for PBXNativeTarget "EFI PatcherTests" */;
+			buildPhases = (
+				BB53669F23E0F3D3006404CF /* Sources */,
+				BB5366A023E0F3D3006404CF /* Frameworks */,
+				BB5366A123E0F3D3006404CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB5366A523E0F3D3006404CF /* PBXTargetDependency */,
+			);
+			name = "EFI PatcherTests";
+			productName = "EFI PatcherTests";
+			productReference = BB5366A323E0F3D3006404CF /* EFI PatcherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB5366AD23E0F3D3006404CF /* EFI PatcherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB5366BD23E0F3D3006404CF /* Build configuration list for PBXNativeTarget "EFI PatcherUITests" */;
+			buildPhases = (
+				BB5366AA23E0F3D3006404CF /* Sources */,
+				BB5366AB23E0F3D3006404CF /* Frameworks */,
+				BB5366AC23E0F3D3006404CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB5366B023E0F3D3006404CF /* PBXTargetDependency */,
+			);
+			name = "EFI PatcherUITests";
+			productName = "EFI PatcherUITests";
+			productReference = BB5366AE23E0F3D3006404CF /* EFI PatcherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB53668923E0F3CE006404CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = None;
+				TargetAttributes = {
+					BB53669023E0F3CE006404CF = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					BB5366A223E0F3D3006404CF = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = BB53669023E0F3CE006404CF;
+					};
+					BB5366AD23E0F3D3006404CF = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = BB53669023E0F3CE006404CF;
+					};
+				};
+			};
+			buildConfigurationList = BB53668C23E0F3CE006404CF /* Build configuration list for PBXProject "EFI Patcher" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB53668823E0F3CE006404CF;
+			productRefGroup = BB53669223E0F3CE006404CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB53669023E0F3CE006404CF /* EFI Patcher */,
+				BB5366A223E0F3D3006404CF /* EFI PatcherTests */,
+				BB5366AD23E0F3D3006404CF /* EFI PatcherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB53668F23E0F3CE006404CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9437A4B423EF9255002BE79C /* chipList.json in Resources */,
+				9437A4B823EFD6A3002BE79C /* progList.json in Resources */,
+				BB53669923E0F3D2006404CF /* Assets.xcassets in Resources */,
+				BB53669C23E0F3D2006404CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5366A123E0F3D3006404CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5366AC23E0F3D3006404CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB53668D23E0F3CE006404CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB53669723E0F3CE006404CF /* ViewController.swift in Sources */,
+				BB53669523E0F3CE006404CF /* AppDelegate.swift in Sources */,
+				BB807E0323E1CF9300069450 /* Functions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB53669F23E0F3D3006404CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5366A823E0F3D3006404CF /* EFI_PatcherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5366AA23E0F3D3006404CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5366B323E0F3D3006404CF /* EFI_PatcherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB5366A523E0F3D3006404CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB53669023E0F3CE006404CF /* EFI Patcher */;
+			targetProxy = BB5366A423E0F3D3006404CF /* PBXContainerItemProxy */;
+		};
+		BB5366B023E0F3D3006404CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB53669023E0F3CE006404CF /* EFI Patcher */;
+			targetProxy = BB5366AF23E0F3D3006404CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB53669A23E0F3D2006404CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB53669B23E0F3D2006404CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB5366B523E0F3D3006404CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB5366B623E0F3D3006404CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BB5366B823E0F3D3006404CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "EFI Patcher/EFI_Patcher.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "EFI Patcher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.none.EFI-Patcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BB5366B923E0F3D3006404CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "EFI Patcher/EFI_Patcher.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "EFI Patcher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.none.EFI-Patcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BB5366BB23E0F3D3006404CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "EFI PatcherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.none.EFI-PatcherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EFI Patcher.app/Contents/MacOS/EFI Patcher";
+			};
+			name = Debug;
+		};
+		BB5366BC23E0F3D3006404CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "EFI PatcherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.none.EFI-PatcherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EFI Patcher.app/Contents/MacOS/EFI Patcher";
+			};
+			name = Release;
+		};
+		BB5366BE23E0F3D3006404CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "EFI PatcherUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.none.EFI-PatcherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "EFI Patcher";
+			};
+			name = Debug;
+		};
+		BB5366BF23E0F3D3006404CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "EFI PatcherUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.none.EFI-PatcherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "EFI Patcher";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB53668C23E0F3CE006404CF /* Build configuration list for PBXProject "EFI Patcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5366B523E0F3D3006404CF /* Debug */,
+				BB5366B623E0F3D3006404CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB5366B723E0F3D3006404CF /* Build configuration list for PBXNativeTarget "EFI Patcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5366B823E0F3D3006404CF /* Debug */,
+				BB5366B923E0F3D3006404CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB5366BA23E0F3D3006404CF /* Build configuration list for PBXNativeTarget "EFI PatcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5366BB23E0F3D3006404CF /* Debug */,
+				BB5366BC23E0F3D3006404CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB5366BD23E0F3D3006404CF /* Build configuration list for PBXNativeTarget "EFI PatcherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5366BE23E0F3D3006404CF /* Debug */,
+				BB5366BF23E0F3D3006404CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB53668923E0F3CE006404CF /* Project object */;
+}
