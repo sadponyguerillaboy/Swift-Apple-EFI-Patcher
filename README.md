@@ -22,7 +22,7 @@ brew install flashrom
 
 __Pre-Built Binary Downloads:__
 
-![Pre-Built Binary Downloads](https://github.com/sadponyguerillaboy/Swift-Apple-EFI-Patcher/tree/master/binaries)
+![Click Here for Downloads](https://github.com/sadponyguerillaboy/Swift-Apple-EFI-Patcher/tree/master/binaries)
 
 
 __Usage:__
