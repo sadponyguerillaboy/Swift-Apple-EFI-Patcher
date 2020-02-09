@@ -91,6 +91,6 @@ Again, keep in mind that this program was designed with simplicity in mind. This
 /path_to_flashrom/flashrom -p <programmer type> -c <chip type> -w /Users/username/Desktop/firmware_dump.bin_patched.bin
 ```
 
-Any other configuration or usage of flashrom is beyond the scope of this application and currently not supported. Hence the inclusion of the source code. Feel free to take the code and modify it how you see fit!
+Any other configuration or usage of flashrom is beyond the scope of this application and currently not supported. If you require a more sophisticated flashrom integration, then feel free to modify the source code and impliment your desired functionality!
 
 
