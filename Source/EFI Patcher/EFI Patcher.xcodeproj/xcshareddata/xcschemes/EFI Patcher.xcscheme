@@ -56,7 +56,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      customWorkingDirectory = "/Users/ryaneden/Documents/Shared Playground Data"
+      customWorkingDirectory = "/Users/NoOne/Documents/xcode_projects"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
