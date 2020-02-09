@@ -29,4 +29,4 @@ __Usage:__
 
 After prerequisites have been setup and installed, you can either download a binary from the binary folder or build from source. Once you have downloaded or built EFI Patcher.App, just double click to run it. If on Catalina you may need to provide the utility with the necessary security clearances.
 
-![Image of Dumping Utilities](https://github.com/sadponyguerillaboy/Swift-Apple-EFI-Patcher/images/dump.jpg )
+![Image of Dumping Utilities](https://github.com/sadponyguerillaboy/Swift-Apple-EFI-Patcher/tree/master/images/dump.jpg )
