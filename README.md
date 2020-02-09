@@ -20,4 +20,4 @@ brew install flashrom
 
 __Usage:__
 
-![GitHub Logo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.persofoto.com%2Fupload%2Fpassport-photo&psig=AOvVaw2CWiPbBjiYqZnnKW7hKk6z&ust=1581359727854000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJijs5mOxecCFQAAAAAdAAAAABAI)
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
