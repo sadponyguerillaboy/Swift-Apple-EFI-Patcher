@@ -81,4 +81,16 @@ The three buttons at the bottom of the application window should be fairly self 
 Editing JSON Menu Lists:
 <br><a href="https://imgbb.com/"><img src="https://i.ibb.co/xgKTGNn/json.jpg" alt="json" border="0" /></a>
 
-This application was designed to with the intention of utilizing cost effective USB based chip readers such as CH341a or FT2232H based boards. When designing this application, it was realized that there's just no way to account for the multitude of hardware and chip types that might be used now and in the future. To accomodate the need for customizations, the list of programmers and chip types are stored in JSON files inside the application. To edit these files, simply right click on the application, select "show package contents" and navigate to the JSON files in the resources folder. Just edit the files and append your additions following the JSON format. Your additions will then become available in the programmer and chip type selection menus upon next restart.
+This application was designed with the intention of utilizing cost effective USB based chip readers such as CH341a or FT2232H based boards. When designing this application, it was realized that there's just no way to account for the multitude of hardware and chip types that might be used now and in the future. To accomodate the need for customizations, the list of programmers and chip types are stored in JSON files inside the application. To edit these files, simply right click on the application, select "show package contents" and navigate to the JSON files in the resources folder. Just edit the files and append your additions following the JSON format. Your additions will then become available in the programmer and chip type selection menus upon next restart.
+
+Again, keep in mind that this program was designed with simplicity in mind. This was also in regards to hardware choices and flashrom usage. The application incorporates the following flashrom configurations:
+
+```
+/path_to_flashrom/flashrom -p <programmer type> -c <chip type> -r /Users/username/Desktop/firmware_dump.bin
+/path_to_flashrom/flashrom -p <programmer type> -c <chip type> -v /Users/username/Desktop/firmware_dump.bin 
+/path_to_flashrom/flashrom -p <programmer type> -c <chip type> -w /Users/username/Desktop/firmware_dump.bin_patched.bin
+```
+
+Any other configuration or usage of flashrom is beyond the scope of this application and currently not supported. Hence the inclusion of the source code. Feel free to take the code and modify it how you see fit!
+
+
