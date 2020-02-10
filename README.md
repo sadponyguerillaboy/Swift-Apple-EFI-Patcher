@@ -132,4 +132,4 @@ or just type:
 ```
 sudo xattr -rd com.apple.quarantine 
 ```
-into the terminal and then drag and drop the app into the terminal window. Hit enter and viola!
+in terminal and then drag and drop the app into the terminal window. Hit enter and viola!
