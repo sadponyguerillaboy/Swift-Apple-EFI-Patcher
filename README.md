@@ -84,7 +84,7 @@ The console output portion of the application is where you will receive feedback
 Bottom Buttons:
 <br><a href="https://ibb.co/tMCDQcV"><img src="https://i.ibb.co/Y7jhP8H/bottombuttons.jpg" alt="bottombuttons" border="0" /></a>
 
-The three buttons at the bottom of the application window should be fairly self explanatory. "Reset" resets all user input selections and returns everything back to its original default settings. "Patch" initiates the patching process once you have made your selections above. The patching process will create a file in the same location as the dump file and add "patched.bin" to the end of the file. The "Write" button will write the patched EFI back onto the chip. The write function searches for a file name that equals (dumped file name + patched.bin). If you've used the patching utility, then you will already have a file that it will be able to automatically locate.
+The three buttons at the bottom of the application window should be fairly straight forward. "Reset" resets all user input selections and returns everything back to its original default settings. "Patch" initiates the patching process once you have made your selections above. The patching process will create a file in the same location as the dump file and add "patched.bin" to the end of the file. The "Write" button will write the patched EFI back onto the chip. The write function searches for a file name that equals (dumped file name + patched.bin). If you've used the patching utility, then you will already have a file that it will be able to automatically locate.
 
 Editing JSON Menu Lists:
 <br><a href="https://imgbb.com/"><img src="https://i.ibb.co/xgKTGNn/json.jpg" alt="json" border="0" /></a>
