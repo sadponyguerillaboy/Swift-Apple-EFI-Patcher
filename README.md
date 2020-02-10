@@ -24,7 +24,7 @@ brew install flashrom
 
 __Hardware:__
 
-This software was developed with the intention of utilizing widely available and cost effective USB based hardware in the $3-$15 range. These include USB devices such as CH341a or FT2232H boards. These devices are natively supported by flashrom, so after installing flashrom with brew, no additional drivers or software is required to support these devices.
+This software was developed with the intention of utilizing widely available and cost effective USB based hardware in the $3-$15 range. This includes USB devices such as CH341a or FT2232H boards. These devices are natively supported by flashrom, so after installing flashrom with brew, no additional drivers or software is required to support these devices.
 <br><a href="https://ibb.co/SBhq43B"><img src="https://i.ibb.co/njHhNLj/hardware.jpg" alt="hardware" border="0" /></a>
 
 
