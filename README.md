@@ -106,11 +106,16 @@ Any other configuration or usage of flashrom is beyond the scope of this applica
 
 
 __Xcode Build Settings:__
+
+This project was developed on the following configuration:
 ```
 Xcode 11.3
 macOS 10.15
 swift 5
 ```
+It has been optimized to be able to deploy to the following targets: 10.15, 10.14 and 10.13. You can change the deployment target under the general tab of the project settings.
+<br><a href="https://ibb.co/MNH1F6S"><img src="https://i.ibb.co/F71YRV3/build.jpg" alt="build" border="0" /></a>
+
 
 __How to Fix "App is Damaged & Can't Be Opened" Message:__
 <br><a href="https://imgbb.com/"><img src="https://i.ibb.co/48B6tc7/damaged.jpg" alt="damaged" border="0" /></a>
