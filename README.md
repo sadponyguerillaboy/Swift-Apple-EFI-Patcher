@@ -1,5 +1,5 @@
 # Swift-Apple-EFI-Patcher
-Apple EFI Patcher written in Swift with Flashrom integration. This application was developed out of a need for a simple user-friendly and native macOS based approach to working with Apple EFI roms. The result is a an all-in-one application that can utilize affordable SPI / eeprom chip reading hardware to read/dump from, patch and write to EFI Rom chips. EFI Patcher integrates flashrom support in order to communicate with hardware, thus incorporating a lot of the methodologies and current hardware already utilized by technicians.
+Apple EFI Patcher written in Swift with Flashrom integration. This application was developed out of a need for a simple user-friendly and native macOS based approach to working with Apple EFI roms. The result is an all-in-one application that can utilize affordable SPI / eeprom chip reading hardware to read/dump from, patch and write to EFI Rom chips. EFI Patcher integrates flashrom support in order to communicate with hardware, thus incorporating a lot of the methodologies and current hardware already utilized by technicians.
 
 The core of this application was inspired by my Python-Apple-EFI-Patcher, but has utilized better methods for obtaining offset positionality. This newer version impliments search functions opposed to relying on hard coded offsets to located specific regions within the EFI file.
 
@@ -89,7 +89,10 @@ The three buttons at the bottom of the application window should be fairly self 
 Editing JSON Menu Lists:
 <br><a href="https://imgbb.com/"><img src="https://i.ibb.co/xgKTGNn/json.jpg" alt="json" border="0" /></a>
 
-This application was designed with the intention of utilizing cost effective USB based chip readers such as CH341a or FT2232H based boards. When designing this application, it was realized that there's just no way to account for the multitude of hardware and chip types that might be used now and in the future. To accomodate the need for customizations, the list of programmers and chip types are stored in JSON files inside the application. To edit these files, simply right click on the application, select "show package contents" and navigate to the JSON files in the resources folder. Just edit the files and append your additions following the JSON format. Your additions will then become available in the programmer and chip type selection menus upon next restart.
+This application was designed with the intention of utilizing cost effective USB based chip readers such as CH341a or FT2232H based boards. During this application's inception, it was realized that attempting to account for the multitude of hardware and chip types currently in use and the future needs of user would be impossible. To allow for future customizations, the list of programmer and chip types are stored in JSON files inside the application. To edit these files, simply right click on the application, select "show package contents" and navigate to the JSON files in the Resources folder. Just edit the files and append your additions following the JSON format. Your additions will then become available in the programmer and chip type selection menus upon next restart.
+
+
+__Flashrom Integration:__
 
 Again, keep in mind that this program was designed with simplicity in mind. This was also in regards to hardware choices and flashrom usage. The application incorporates the following flashrom configurations:
 
