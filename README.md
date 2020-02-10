@@ -70,7 +70,7 @@ To clean the ME Region, click the "Clean ME Region" radio button, and either man
 
 To Remove firmware locks, click the "Remove Firmware Lock" radio button. This will fill the $SVS region with 0xFF.
 
-To Clear NVRAM, click the "Clear NVRAM' radio button.
+To Clear NVRAM, click the "Clear NVRAM' radio button. This will fill the first $VSS region with 0xFF.
 
 Once patching selections have been made. Click the "Patch' button below.
 
