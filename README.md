@@ -105,6 +105,13 @@ Again, please remember that this program was designed with simplicity in mind. T
 Any other configuration or usage of flashrom is beyond the scope of this application and currently not supported. If you require a more sophisticated flashrom integration, then feel free to modify the source code and impliment your desired functionality!
 
 
+__Xcode Build Settings:__
+```
+Xcode 11.3
+macOS 10.15
+swift 5
+```
+
 __How to Fix "App is Damaged & Can't Be Opened" Message:__
 <br><a href="https://imgbb.com/"><img src="https://i.ibb.co/48B6tc7/damaged.jpg" alt="damaged" border="0" /></a>
 
