@@ -274,7 +274,6 @@ class ViewController: NSViewController {
             let fileExists = FileManager.default.fileExists(atPath: efiPathURL.path)
             // If file exists read contents of file into data variable
             if fileExists == true {
-                //let data: NSMutableData? = NSMutableData(contentsOf: efiPathURL)
                 data = try! NSMutableData(contentsOf: efiPathURL)
                 //let data: NSMutableData? = NSMutableData(contentsOf: efiPathURL)
                 //let filesize = data!.count
