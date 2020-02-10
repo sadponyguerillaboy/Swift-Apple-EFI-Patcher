@@ -1,0 +1,3 @@
+user data in build settings
+filehandle.closeFile() for 10.13
+if click dump, it populates file field. then try to patch non-existent file. crashes app. need error handling here.
