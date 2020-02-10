@@ -114,6 +114,7 @@ macOS 10.15
 swift 5
 ```
 It has been optimized to be able to deploy to the following targets: 10.15, 10.14 and 10.13. You can change the deployment target under the general tab of the project settings.
+
 <br><a href="https://ibb.co/MNH1F6S"><img src="https://i.ibb.co/F71YRV3/build.jpg" alt="build" border="0" /></a>
 
 
