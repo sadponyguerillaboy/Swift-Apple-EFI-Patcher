@@ -67,7 +67,7 @@ The "Verify" checkbox activates the verification process during EFI dumping and 
 
 The "Read" button initiates the extraction process.
 
-Please note that while reading or write, the application may appear to be frozen, but it's just waiting for the flashrom task to complete and send it's console output back to the application.
+Please note that while reading or writing, the application may appear to be frozen, but it's just waiting for the flashrom task to complete and send it's console output back to the application.
 
 
 Patching Utilities:
