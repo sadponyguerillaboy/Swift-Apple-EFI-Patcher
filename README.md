@@ -104,6 +104,16 @@ Editing JSON Menu Lists:
 This application was designed with the intention of utilizing cost effective USB based chip readers such as CH341a or FT2232H based boards. During this application's inception, it was realized that attempting to account for the multitude of hardware and chip types currently in use and the future needs of user would be impossible. To allow for future customizations, the list of programmer and chip types are stored in JSON files inside the application. To edit these files, simply right click on the application, select "show package contents" and navigate to the JSON files in the Resources folder. Just edit the files and append your additions following the JSON format. Your additions will then become available in the programmer and chip type selection menus upon next restart.
 
 
+__Program Flow:__
+
+The program works in the following fashion. It reads the file from a chip and saves to disk, or alternatively it can just open a local file from disk. Then it reads that data into a variable, patches the data and then wites the pactched data back to disk using the original filename with "-patched.bin" appended to the end. When the write button is clicked, it looks for the file with the "-patched" bin appended to the end.
+
+
+__Crashes:__
+
+The application has basic error handling, but there are instances where corrupted files or fresh .fd files lacking the necessary regions being patched can cause errors. If you run into issues, make sure the efi rom you are working with is good.
+
+
 __Xcode Build Settings:__
 
 This project was developed on the following configuration:
