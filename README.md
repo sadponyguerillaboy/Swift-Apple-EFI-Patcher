@@ -41,8 +41,7 @@ After prerequisites have been setup and installed, you can either download a bin
 __Application Layout:__
 
 Initial Setup:
-<br><a href="https://imgbb.com/"><img src="https://i.ibb.co/WpxMDWN/menu.jpg" alt="menu" border="0" /></a>
-<a href="https://ibb.co/DkxJSPx"><img src="https://i.ibb.co/82WCSnW/preferences.jpg" alt="preferences" border="0" /></a>
+<br><a href="https://imgbb.com/"><img src="https://i.ibb.co/WpxMDWN/menu.jpg" alt="menu" border="0" /></a><a href="https://ibb.co/DkxJSPx"><img src="https://i.ibb.co/82WCSnW/preferences.jpg" alt="preferences" border="0" /></a>
 
 Chip Reading Utilities:
 <br><a href="https://ibb.co/8cqLWrP"><img src="https://i.ibb.co/PQKv7c1/read.jpg" alt="read" border="0" /></a><br>
