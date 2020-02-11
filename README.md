@@ -54,7 +54,7 @@ The first item is the location of your flashrom installation. If you installed f
 /usr/local/bin/flashrom
 /usr/local/Cellar/flashrom/1.1/bin/flashrom
 ```
-You will need to enter the full path to the flashrom app. The second item is the programmer configuration. The Programmer Config field is a ComboBox, so it provides both a dropdown selection menu and the ability to enter text manually. THe drop down selection provides a basic list of programmers. Some programmers like the `ch341a_spi` only require what is provided in the dropdown, but others like the `buspirate_spi` may require specified port mappings and speed parameters. These may be entered into the text field manually.
+You will need to enter the full path to the flashrom app. The second item is the programmer configuration. The Programmer Config field is a ComboBox, so it provides both a dropdown selection menu and the ability to enter text manually. The drop down selection provides a basic list of programmers. Some programmers like the `ch341a_spi` only require what is provided in the dropdown, but others like the `buspirate_spi` may require specified port mappings and speed parameters. These may be entered into the text field manually.
 
 Chip Reading Utilities:
 
