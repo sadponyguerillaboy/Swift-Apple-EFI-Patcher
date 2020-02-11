@@ -45,14 +45,19 @@ Initial Setup:
 The first thing to do is setup the flashrom configurate. Click "EFI Patcher" from the overhead menu and then select preferences from the drop down.
 <br><a href="https://imgbb.com/"><img src="https://i.ibb.co/WpxMDWN/menu.jpg" alt="menu" border="0" /></a>
 
-The preferences pane has two items that need to be set in order for the application to function correctly.
+The preferences pane has two items that need to be set in order for the flashrom compoents of the application to function correctly. If you only intend to use the patching fucntion on files acquired from alternate sources, then the configuration is not necessary.
 
 <br><a href="https://ibb.co/DkxJSPx"><img src="https://i.ibb.co/82WCSnW/preferences.jpg" alt="preferences" border="0" /></a>
 
-The first item is the location o your flashrom installation. If you installed flashrom using brew, then it is likely located in:
-`code`
+The first item is the location of your flashrom installation. If you installed flashrom using brew, then it is likely located in:
+```
+/usr/local/bin/flashrom
+/usr/local/Cellar/flashrom/1.1/bin/flashrom
+```
+You will need to enter the full path to the flashrom app. The second item is the programmer configuration. The Programmer Config field is a ComboBox, so it provides both a dropdown selection menu and the ability to enter text manually. THe drop down selection provides a basic list of programmers. Some programmers like the `ch341a_spi` only require what is provided in the dropdown, but others like the `buspirate_spi` may require specified port mappings and speed parameters. These may be entered into the text field manually.
 
 Chip Reading Utilities:
+
 <br><a href="https://ibb.co/8cqLWrP"><img src="https://i.ibb.co/PQKv7c1/read.jpg" alt="read" border="0" /></a><br>
 
 The top portion of the application window is utilized for EFI Chip reading / dumping processes. The first text field entitled "Flashrom Location" is for the location of your flashrom app. If you installed the most recent version with brew (which at the time this was written was v1.1) then you can just leave this field untouched. If left untouched, it will default to the brew install location. If you installed your flashrom to a different location, then you can enter the alternative path.
