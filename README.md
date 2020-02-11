@@ -40,9 +40,12 @@ After prerequisites have been setup and installed, you can either download a bin
 
 __Application Layout:__
 
+Initial Setup:
+<br><a href="https://imgbb.com/"><img src="https://i.ibb.co/WpxMDWN/menu.jpg" alt="menu" border="0" /></a>
+<a href="https://ibb.co/DkxJSPx"><img src="https://i.ibb.co/82WCSnW/preferences.jpg" alt="preferences" border="0" /></a>
 
-Dumping Utilities:
-<br><a href="https://ibb.co/GTLDQ6M"><img src="https://i.ibb.co/nCvyMG1/dump.jpg" alt="dump" border="0" /></a><br>
+Chip Reading Utilities:
+<br><a href="https://ibb.co/8cqLWrP"><img src="https://i.ibb.co/PQKv7c1/read.jpg" alt="read" border="0" /></a><br>
 
 The top portion of the application window is utilized for EFI Chip reading / dumping processes. The first text field entitled "Flashrom Location" is for the location of your flashrom app. If you installed the most recent version with brew (which at the time this was written was v1.1) then you can just leave this field untouched. If left untouched, it will default to the brew install location. If you installed your flashrom to a different location, then you can enter the alternative path.
 
