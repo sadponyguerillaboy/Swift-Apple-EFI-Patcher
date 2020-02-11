@@ -72,17 +72,17 @@ Patching Utilities:
 
 <br><a href="https://ibb.co/Tbh1zC6"><img src="https://i.ibb.co/HxgCmJ6/patch.jpg" alt="patch" border="0" /></a>
 
-The patching portion of the application window is where you can edit your EFI dump. If you dumped your EFI using the dump utility above, then the "Original EFI File" text field will auto-populate with the location of the dumped file. If you already have a dumped EFI file you wish to modify, then you can either type the path into the "Original EFI File" field, or yo can click the "Open" button and choose the file, which will in turn auto-populate the "Original EFI File" filed.
+The patching portion of the application window is where you can edit your EFI dump. If you obtained your EFI using the extraction utility above, then the "Original EFI File" text field will auto-populate with the location of the extracted file. If you already have a dumped EFI file you wish to modify, then you can either type the path into the "Original EFI File" field, or yo can click the "Open" button and choose the file, which will in turn auto-populate the "Original EFI File" field.
 
-The four radio buttons activate each of the patching processes and should be pretty self explanatory.
+The four checkboxes activate each of the patching processes and should be pretty self explanatory.
 
-To patch the serial number, click the "Change Serial Number" radio button and enter a new 12 character serial number of your choosing.
+To patch the serial number, click the "Change Serial Number" checkbox and enter a new 12 character serial number of your choosing.
 
-To clean the ME Region, click the "Clean ME Region" radio button, and either manually enter the path to the ME Region file or click the open button and select the file, which will in turn auto-populate the ME Region File path field.
+To clean the ME Region, click the "Clean ME Region" checkbox, and either manually enter the path to the ME Region file or click the open button and select the file, which will in turn auto-populate the ME Region File path field.
 
-To Remove firmware locks, click the "Remove Firmware Lock" radio button. This will fill the $SVS region with 0xFF.
+To Remove firmware locks, click the "Remove Firmware Lock" checkbox. This will fill the $SVS region with 0xFF.
 
-To Clear NVRAM, click the "Clear NVRAM' radio button. This will fill the first $VSS region with 0xFF.
+To Clear NVRAM, click the "Clear NVRAM' checkbox. This will fill the first $VSS region with 0xFF.
 
 Once patching selections have been made. Click the "Patch' button below.
 
@@ -102,19 +102,6 @@ Editing JSON Menu Lists:
 <br><a href="https://imgbb.com/"><img src="https://i.ibb.co/xgKTGNn/json.jpg" alt="json" border="0" /></a>
 
 This application was designed with the intention of utilizing cost effective USB based chip readers such as CH341a or FT2232H based boards. During this application's inception, it was realized that attempting to account for the multitude of hardware and chip types currently in use and the future needs of user would be impossible. To allow for future customizations, the list of programmer and chip types are stored in JSON files inside the application. To edit these files, simply right click on the application, select "show package contents" and navigate to the JSON files in the Resources folder. Just edit the files and append your additions following the JSON format. Your additions will then become available in the programmer and chip type selection menus upon next restart.
-
-
-__Flashrom Integration:__
-
-Again, please remember that this program was designed with simplicity in mind. This was also in regards to hardware choices and flashrom usage. The application incorporates the following flashrom configurations:
-
-```
-/path_to_flashrom/flashrom -p <programmer type> -c <chip type> -r /Users/username/Desktop/firmware_dump.bin
-/path_to_flashrom/flashrom -p <programmer type> -c <chip type> -v /Users/username/Desktop/firmware_dump.bin 
-/path_to_flashrom/flashrom -p <programmer type> -c <chip type> -w /Users/username/Desktop/firmware_dump.bin_patched.bin
-```
-
-Any other configuration or usage of flashrom is beyond the scope of this application and currently not supported. If you require a more sophisticated flashrom integration, then feel free to modify the source code and impliment your desired functionality!
 
 
 __Xcode Build Settings:__
