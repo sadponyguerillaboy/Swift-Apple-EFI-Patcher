@@ -109,7 +109,7 @@ This application was designed with the intention of utilizing cost effective USB
 
 __Program Flow:__
 
-The program works in the following fashion. It reads the file from a chip and saves to disk, or alternatively it can just open a local file from disk. Then if the use presses the patch button it reads that data into a variable, creates a backup of the original as filename + ".bak", then patches the data overwrites the original file. When the write button is clicked, it looks for the original filename.
+The program works in the following fashion. It reads the file from a chip and saves to disk, or alternatively it can just open a local file from disk. Then if the user presses the patch button, it reads that data into a variable, creates a backup of the original EFI as filename + ".bak", then patches the data and overwrites the original file. When the write button is clicked, it looks for the original filename. This methodology allows the application to also double as just a GUI for flashrom.
 
 __Crashes:__
 
