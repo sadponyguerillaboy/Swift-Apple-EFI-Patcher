@@ -108,8 +108,7 @@ This application was designed with the intention of utilizing cost effective USB
 
 __Program Flow:__
 
-The program works in the following fashion. It reads the file from a chip and saves to disk, or alternatively it can just open a local file from disk. Then it reads that data into a variable, patches the data and then wites the pactched data back to disk using the original filename with "-patched.bin" appended to the end. When the write button is clicked, it looks for the file with the "-patched" bin appended to the end.
-
+The program works in the following fashion. It reads the file from a chip and saves to disk, or alternatively it can just open a local file from disk. Then if the use presses the patch button it reads that data into a variable, creates a backup of the original as filename + ".bak", then patches the data overwrites the original file. When the write button is clicked, it looks for the original filename.
 
 __Crashes:__
 
