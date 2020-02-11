@@ -102,7 +102,7 @@ The three buttons at the bottom of the application window should be fairly strai
 
 Editing JSON Menu Lists:
 
-<br><a href="https://imgbb.com/"><img src="https://i.ibb.co/xgKTGNn/json.jpg" alt="json" border="0" /></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/xgKTGNn/json.jpg" alt="json" border="0" /></a>
 
 This application was designed with the intention of utilizing cost effective USB based chip readers such as CH341a or FT2232H based boards. During this application's inception, it was realized that attempting to account for the multitude of hardware and chip types currently in use as well as the future needs of users would be impossible. To allow for future customizations, the list of programmer and chip types are stored in JSON files inside the application. To edit these files, simply right click on the application, select "show package contents" and navigate to the JSON files in the Resources folder. Just edit the files and append your additions following the JSON format. Your additions will then become available in the programmer and chip type selection menus upon next restart. Note that if your programmer requires more complex usage, you can also change the value in the JSON file to reflect those needs.
 
@@ -130,7 +130,8 @@ It has been optimized to be able to deploy to the following targets: 10.15, 10.1
 
 
 __How to Fix "App is Damaged & Can't Be Opened" Message:__
-<br><a href="https://imgbb.com/"><img src="https://i.ibb.co/48B6tc7/damaged.jpg" alt="damaged" border="0" /></a>
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/48B6tc7/damaged.jpg" alt="damaged" border="0" /></a>
 
 After downloading the app and attempting to run one of the binaries, you might get a message stating that the app is damaged and can't be opened, with macOS offering to move it to the trash. This is just a signing issue. If you build the app from source on your own machine you won't experience this issue.
 
