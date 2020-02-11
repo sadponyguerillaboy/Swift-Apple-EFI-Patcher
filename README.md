@@ -92,7 +92,7 @@ Once patching selections have been made. Click the "Patch' button below.
 Console Output Window:
 <br><a href="https://ibb.co/HCp7kPN"><img src="https://i.ibb.co/3vY1LFf/console.jpg" alt="console" border="0" /></a>
 
-The console output portion of the application is where you will receive feedback on the various process taking place. 
+The console output portion of the application is where you will receive feedback on the various processes taking place. 
 
 
 Bottom Buttons:
