@@ -42,7 +42,7 @@ __Application Layout:__
 
 Initial Setup:
 
-The first thing to do is setup the flashrom configurate. Click "EFI Patcher" from the overhead menu and then select preferences from the drop down.
+The first thing to do is setup the flashrom configurate. Click "EFI Patcher" from the overhead menu and then select "preferences" from the drop down.
 <br><a href="https://imgbb.com/"><img src="https://i.ibb.co/WpxMDWN/menu.jpg" alt="menu" border="0" /></a>
 
 The preferences pane has two items that need to be set in order for the flashrom components of the application to function correctly. If you only intend to use the patching function on files acquired from alternate sources, then the configuration is not necessary.
@@ -54,26 +54,22 @@ The first item is the location of your flashrom installation. If you installed f
 /usr/local/bin/flashrom
 /usr/local/Cellar/flashrom/1.1/bin/flashrom
 ```
-You will need to enter the full path to the flashrom app. The second item is the programmer configuration. The Programmer Config field is a ComboBox, so it provides both a dropdown selection menu and the ability to enter text manually. The drop down selection provides a basic list of programmers. Some programmers like the `ch341a_spi` only require what is provided in the dropdown, but others like the `buspirate_spi` may require specified port mappings and speed parameters. These may be entered into the text field manually.
+You will need to enter the full path to the flashrom app. The second item is the programmer configuration. The "Programmer Config" field is a ComboBox, so it provides both a dropdown selection menu and the ability to enter text manually. The drop down selection provides a basic list of programmers. Some programmers like the `ch341a_spi` only require what is provided in the dropdown, but others like the `buspirate_spi` may require specified port mappings and speed parameters. These may be entered into the text field manually.
+
 
 Chip Reading Utilities:
 
 <br><a href="https://ibb.co/8cqLWrP"><img src="https://i.ibb.co/PQKv7c1/read.jpg" alt="read" border="0" /></a><br>
 
-The top portion of the application window is utilized for EFI Chip reading / dumping processes. The first text field entitled "Flashrom Location" is for the location of your flashrom app. If you installed the most recent version with brew (which at the time this was written was v1.1) then you can just leave this field untouched. If left untouched, it will default to the brew install location. If you installed your flashrom to a different location, then you can enter the alternative path.
+The top portion of the application window is utilized for EFI Chip reading / dumping processes. The first checkbox enables the chip type argument used by flashrom. This was set as an optional choice, as flashrom has the ability to autodetect certain types of chips, where others require manual entry. The Chip Type slection is also a ComboBox, which provides a dropdown list of chips that can be selected, but also allows for manual entry should the chip you are looking for not be listed. The "Save Location" text field is the location that any extracted data will be saved. By default this is `/Users/<your_username>/Desktop/firmware_dump.bin` This may be altered to any location of your choosing.
 
-The next text field below entitled "Dump Location" is where the application will save the dumped EFI file. By default it will save to your desktop as "firmware_dump.bin".
+The "Verify" checkbox activates the verification process during EFI dumping and is recommended to verify the integtity of your extracted files. Note that activating the verification process will extend the time of the extraction procedure.
 
-The radio button entitled "Verify Dump" activates the verification process during EFI dumping and is recommended to verify the integtity of your dumped files. Note that activating the verification process will extend the time of the dumping procedure.
-
-The dropdown menu entitled "Programmer Type" allows you to select your programmer.
-
-The dropdown menu entitled "Chip Type" allows you to select your EFI chip.
-
-The "Dump" button initiates the dumping process.
+The "Read" button initiates the extraction process.
 
 
 Patching Utilities:
+
 <br><a href="https://ibb.co/Tbh1zC6"><img src="https://i.ibb.co/HxgCmJ6/patch.jpg" alt="patch" border="0" /></a>
 
 The patching portion of the application window is where you can edit your EFI dump. If you dumped your EFI using the dump utility above, then the "Original EFI File" text field will auto-populate with the location of the dumped file. If you already have a dumped EFI file you wish to modify, then you can either type the path into the "Original EFI File" field, or yo can click the "Open" button and choose the file, which will in turn auto-populate the "Original EFI File" filed.
