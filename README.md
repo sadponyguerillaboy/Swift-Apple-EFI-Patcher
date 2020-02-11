@@ -45,7 +45,7 @@ Initial Setup:
 The first thing to do is setup the flashrom configurate. Click "EFI Patcher" from the overhead menu and then select preferences from the drop down.
 <br><a href="https://imgbb.com/"><img src="https://i.ibb.co/WpxMDWN/menu.jpg" alt="menu" border="0" /></a>
 
-The preferences pane has two items that need to be set in order for the flashrom components of the application to function correctly. If you only intend to use the patching fucntion on files acquired from alternate sources, then the configuration is not necessary.
+The preferences pane has two items that need to be set in order for the flashrom components of the application to function correctly. If you only intend to use the patching function on files acquired from alternate sources, then the configuration is not necessary.
 
 <br><a href="https://ibb.co/DkxJSPx"><img src="https://i.ibb.co/82WCSnW/preferences.jpg" alt="preferences" border="0" /></a>
 
