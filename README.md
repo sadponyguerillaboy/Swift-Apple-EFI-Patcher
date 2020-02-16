@@ -99,7 +99,7 @@ The console output portion of the application is where you will receive feedback
 Bottom Buttons:
 <br><a href="https://ibb.co/tMCDQcV"><img src="https://i.ibb.co/Y7jhP8H/bottombuttons.jpg" alt="bottombuttons" border="0" /></a>
 
-The three buttons at the bottom of the application window should be fairly straight forward. "Reset" resets all user input selections and returns everything back to its original default settings. "Patch" initiates the patching process once you have made your selections above. The patching process will create a patched file with the same name as the original dumped file and created a backup of the original file with the appended ".bak" extension in the filename. The "Write" button will write the patched EFI back onto the chip. The write function searches for a file with the name equal to that of the dumped and patched file, meaning that this utility can act as a gui for flashrom as well.
+The three buttons at the bottom of the application window should be fairly straight forward. "Reset" resets all user input selections and returns everything back to its original default settings. "Patch" initiates the patching process once you have made your selections above. The patching process will create a patched file with the same name as the original dumped file and created a backup of the original file with the appended ".bak" extension in the filename. The "Write" button will write the patched EFI back onto the chip. The write function searches for a file with the name equal to that of the dumped and patched file, meaning that this utility can act as a gui for flashrom as well if all you wish to do is write rom files to chip.
 
 Editing JSON Menu Lists:
 
