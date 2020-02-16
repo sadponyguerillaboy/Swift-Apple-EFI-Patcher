@@ -36,7 +36,7 @@ __Pre-Built Binary Downloads:__
 
 __Usage:__
 
-After prerequisites have been setup and installed, you can either download a binary from the binary folder or build from source. Once you have downloaded or built EFI Patcher.App, just double click to run it. If on Catalina you may need to provide the utility with the necessary security clearances.
+After prerequisites have been setup and installed, you can either download a binary from the binary folder or build from source. Once you have downloaded or built EFI Patcher.App, just double click to run it. If on Catalina you may need to provide the utility with the necessary security clearances. If you receive a message stating "App is Damaged & Can't Be Opened", please scroll to the bottom of the readme for the fix.
 
 
 __Application Layout:__
