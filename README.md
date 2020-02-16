@@ -1,7 +1,7 @@
 # Swift-Apple-EFI-Patcher
 Apple EFI Patcher written in Swift with Flashrom integration. This application was developed out of a need for a simple user-friendly and native macOS based approach to working with Apple EFI roms. The result is an all-in-one application capable of utilizing affordable SPI / eeprom chip reading hardware for reading/dumping from, patching and writing to EFI Rom chips. This application integrates flashrom support in order to communicate with hardware, thus incorporating a lot of the methodologies and current hardware already utilized by technicians.
 
-The core of this application was inspired by my Python-Apple-EFI-Patcher, but has utilized better methods for obtaining offset positionality. This newer version impliments search functions opposed to relying on hard coded offsets to located specific regions within the EFI file.
+The core of this application was inspired by my Python-Apple-EFI-Patcher, but has utilized better methods for obtaining offset positionality. This newer version impliments search functions opposed to relying on hard coded offsets to located specific regions within the EFI file. This newer version adds NVRAM support as well as properly perserves headers for NVRAM and Firmware Lock regions.
 
 
 __Prerequisites:__
