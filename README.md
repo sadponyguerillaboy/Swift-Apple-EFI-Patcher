@@ -114,7 +114,7 @@ The program works in the following fashion. It reads the file from a chip and sa
 
 __Crashes:__
 
-The application has basic error handling, but there are instances where corrupted files or fresh .fd files lacking the necessary regions being patched and can cause errors. If you run into issues, make sure the efi rom you are working with is good.
+The application has basic error handling, but there are instances where corrupted files or fresh .fd files lacking the necessary regions being patched can cause errors. If you run into issues, make sure the efi rom you are working with is good.
 
 
 __Xcode Build Settings:__
