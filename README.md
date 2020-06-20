@@ -75,7 +75,7 @@ Patching Utilities:
 
 <br><a href="https://ibb.co/Tbh1zC6"><img src="https://i.ibb.co/HxgCmJ6/patch.jpg" alt="patch" border="0" /></a>
 
-The patching portion of the application window is where you can edit your EFI dump. If you obtained your EFI using the extraction utility above, then the "Original EFI File" text field will auto-populate with the location of the extracted file. If you already have a dumped EFI file you wish to modify, then you can either type the path into the "Original EFI File" field, or yo can click the "Open" button and choose the file, which will in turn auto-populate the "Original EFI File" field.
+The patching portion of the application window is where you can edit your EFI dump. If you obtained your EFI using the extraction utility above, then the "Original EFI File" text field will auto-populate with the location of the extracted file. If you already have a dumped EFI file you wish to modify, then you can either type the path into the "Original EFI File" field, or you can click the "Open" button and choose the file, which will in turn auto-populate the "Original EFI File" field.
 
 The four checkboxes activate each of the patching processes and should be pretty self explanatory.
 
