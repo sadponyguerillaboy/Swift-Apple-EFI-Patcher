@@ -29,11 +29,6 @@ This software was developed with the intention of utilizing widely available and
 <br><a href="https://ibb.co/SBhq43B"><img src="https://i.ibb.co/njHhNLj/hardware.jpg" alt="hardware" border="0" /></a>
 
 
-__Pre-Built Binary Downloads:__
-
-![Click Here for Downloads](https://github.com/sadponyguerillaboy/Swift-Apple-EFI-Patcher/tree/master/binaries)
-
-
 __Usage:__
 
 After prerequisites have been setup and installed, you can either download a binary from the binary folder or build from source. Once you have downloaded or built EFI Patcher.App, just double click to run it. If on Catalina you may need to provide the utility with the necessary security clearances. If you receive a message stating "App is Damaged & Can't Be Opened", please scroll to the bottom of the readme for the fix.
