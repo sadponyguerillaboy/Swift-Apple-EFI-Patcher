@@ -31,7 +31,7 @@ This software was developed with the intention of utilizing widely available and
 
 __Usage:__
 
-After prerequisites have been setup and installed, you can either download a binary from the binary folder or build from source. Once you have downloaded or built EFI Patcher.App, just double click to run it. If on Catalina you may need to provide the utility with the necessary security clearances. If you receive a message stating "App is Damaged & Can't Be Opened", please scroll to the bottom of the readme for the fix.
+After prerequisites have been setup and installed, you can build the application from source. Once you have built EFI Patcher.App, just double click to run it. If on Catalina you may need to provide the utility with the necessary security clearances. If you receive a message stating "App is Damaged & Can't Be Opened", please scroll to the bottom of the readme for the fix.
 
 
 __Application Layout:__
