@@ -69,25 +69,18 @@ func searchArray (mainArray: [UInt8], searchSequence: [UInt8]) -> Int {// change
 // Locate Initial ME Offset searching for ME Headers within entire file
 func findInitialMeRegionOffset (file: NSData, searchItem1: Data, searchItem2: Data, searchItem3: Data) -> Int {
     let searchRange = NSMakeRange(0, file.count)
-    let foundRange = file.range(of: searchItem1, in: searchRange)
+    var foundRange = file.range(of: searchItem1, in: searchRange)
     let location = NSNotFound
     if foundRange.location != NSNotFound {
-        let location = foundRange.location
-        return location
+        return foundRange.location
     }
-    else if foundRange.location == NSNotFound {
-        let foundRange = file.range(of: searchItem2, in: searchRange)
-        if foundRange.location != NSNotFound {
-            let location = foundRange.location
-            return location
-        }
+    foundRange = file.range(of: searchItem2, in: searchRange)
+    if foundRange.location != NSNotFound {
+        return foundRange.location
     }
-    else if foundRange.location == NSNotFound {
-        let foundRange = file.range(of: searchItem3, in: searchRange)
-        if foundRange.location != NSNotFound {
-            let location = foundRange.location
-            return location
-        }
+    foundRange = file.range(of: searchItem3, in: searchRange)
+    if foundRange.location != NSNotFound {
+        return foundRange.location
     }
     return location
 }
